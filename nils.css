@@ -1,0 +1,511 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+}
+
+.Wrapper {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px #fff;
+}
+
+.Ring {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  justify-content: center;
+}
+.Ring:before {
+  content: '';
+  position: relative;
+  display: block;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px #fff;
+  background-color: #000;
+}
+
+.Ring:nth-child(1) {
+  width: 499.82143px;
+  height: 499.82143px;
+  margin: -249.91071px;
+  animation: rotate 10s -0.03571s infinite ease-in-out;
+}
+.Ring:nth-child(1):before {
+  height: 488.27381px;
+  width: 488.27381px;
+}
+
+.Ring:nth-child(2) {
+  width: 499.64286px;
+  height: 499.64286px;
+  margin: -249.82143px;
+  animation: rotate 10s -0.07143s infinite ease-in-out;
+}
+.Ring:nth-child(2):before {
+  height: 476.54762px;
+  width: 476.54762px;
+}
+
+.Ring:nth-child(3) {
+  width: 499.46429px;
+  height: 499.46429px;
+  margin: -249.73214px;
+  animation: rotate 10s -0.10714s infinite ease-in-out;
+}
+.Ring:nth-child(3):before {
+  height: 464.82143px;
+  width: 464.82143px;
+}
+
+.Ring:nth-child(4) {
+  width: 499.28571px;
+  height: 499.28571px;
+  margin: -249.64286px;
+  animation: rotate 10s -0.14286s infinite ease-in-out;
+}
+.Ring:nth-child(4):before {
+  height: 453.09524px;
+  width: 453.09524px;
+}
+
+.Ring:nth-child(5) {
+  width: 499.10714px;
+  height: 499.10714px;
+  margin: -249.55357px;
+  animation: rotate 10s -0.17857s infinite ease-in-out;
+}
+.Ring:nth-child(5):before {
+  height: 441.36905px;
+  width: 441.36905px;
+}
+
+.Ring:nth-child(6) {
+  width: 498.92857px;
+  height: 498.92857px;
+  margin: -249.46429px;
+  animation: rotate 10s -0.21429s infinite ease-in-out;
+}
+.Ring:nth-child(6):before {
+  height: 429.64286px;
+  width: 429.64286px;
+}
+
+.Ring:nth-child(7) {
+  width: 498.75px;
+  height: 498.75px;
+  margin: -249.375px;
+  animation: rotate 10s -0.25s infinite ease-in-out;
+}
+.Ring:nth-child(7):before {
+  height: 417.91667px;
+  width: 417.91667px;
+}
+
+.Ring:nth-child(8) {
+  width: 498.57143px;
+  height: 498.57143px;
+  margin: -249.28571px;
+  animation: rotate 10s -0.28571s infinite ease-in-out;
+}
+.Ring:nth-child(8):before {
+  height: 406.19048px;
+  width: 406.19048px;
+}
+
+.Ring:nth-child(9) {
+  width: 498.39286px;
+  height: 498.39286px;
+  margin: -249.19643px;
+  animation: rotate 10s -0.32143s infinite ease-in-out;
+}
+.Ring:nth-child(9):before {
+  height: 394.46429px;
+  width: 394.46429px;
+}
+
+.Ring:nth-child(10) {
+  width: 498.21429px;
+  height: 498.21429px;
+  margin: -249.10714px;
+  animation: rotate 10s -0.35714s infinite ease-in-out;
+}
+.Ring:nth-child(10):before {
+  height: 382.7381px;
+  width: 382.7381px;
+}
+
+.Ring:nth-child(11) {
+  width: 498.03571px;
+  height: 498.03571px;
+  margin: -249.01786px;
+  animation: rotate 10s -0.39286s infinite ease-in-out;
+}
+.Ring:nth-child(11):before {
+  height: 371.0119px;
+  width: 371.0119px;
+}
+
+.Ring:nth-child(12) {
+  width: 497.85714px;
+  height: 497.85714px;
+  margin: -248.92857px;
+  animation: rotate 10s -0.42857s infinite ease-in-out;
+}
+.Ring:nth-child(12):before {
+  height: 359.28571px;
+  width: 359.28571px;
+}
+
+.Ring:nth-child(13) {
+  width: 497.67857px;
+  height: 497.67857px;
+  margin: -248.83929px;
+  animation: rotate 10s -0.46429s infinite ease-in-out;
+}
+.Ring:nth-child(13):before {
+  height: 347.55952px;
+  width: 347.55952px;
+}
+
+.Ring:nth-child(14) {
+  width: 497.5px;
+  height: 497.5px;
+  margin: -248.75px;
+  animation: rotate 10s -0.5s infinite ease-in-out;
+}
+.Ring:nth-child(14):before {
+  height: 335.83333px;
+  width: 335.83333px;
+}
+
+.Ring:nth-child(15) {
+  width: 497.32143px;
+  height: 497.32143px;
+  margin: -248.66071px;
+  animation: rotate 10s -0.53571s infinite ease-in-out;
+}
+.Ring:nth-child(15):before {
+  height: 324.10714px;
+  width: 324.10714px;
+}
+
+.Ring:nth-child(16) {
+  width: 497.14286px;
+  height: 497.14286px;
+  margin: -248.57143px;
+  animation: rotate 10s -0.57143s infinite ease-in-out;
+}
+.Ring:nth-child(16):before {
+  height: 312.38095px;
+  width: 312.38095px;
+}
+
+.Ring:nth-child(17) {
+  width: 496.96429px;
+  height: 496.96429px;
+  margin: -248.48214px;
+  animation: rotate 10s -0.60714s infinite ease-in-out;
+}
+.Ring:nth-child(17):before {
+  height: 300.65476px;
+  width: 300.65476px;
+}
+
+.Ring:nth-child(18) {
+  width: 496.78571px;
+  height: 496.78571px;
+  margin: -248.39286px;
+  animation: rotate 10s -0.64286s infinite ease-in-out;
+}
+.Ring:nth-child(18):before {
+  height: 288.92857px;
+  width: 288.92857px;
+}
+
+.Ring:nth-child(19) {
+  width: 496.60714px;
+  height: 496.60714px;
+  margin: -248.30357px;
+  animation: rotate 10s -0.67857s infinite ease-in-out;
+}
+.Ring:nth-child(19):before {
+  height: 277.20238px;
+  width: 277.20238px;
+}
+
+.Ring:nth-child(20) {
+  width: 496.42857px;
+  height: 496.42857px;
+  margin: -248.21429px;
+  animation: rotate 10s -0.71429s infinite ease-in-out;
+}
+.Ring:nth-child(20):before {
+  height: 265.47619px;
+  width: 265.47619px;
+}
+
+.Ring:nth-child(21) {
+  width: 496.25px;
+  height: 496.25px;
+  margin: -248.125px;
+  animation: rotate 10s -0.75s infinite ease-in-out;
+}
+.Ring:nth-child(21):before {
+  height: 253.75px;
+  width: 253.75px;
+}
+
+.Ring:nth-child(22) {
+  width: 496.07143px;
+  height: 496.07143px;
+  margin: -248.03571px;
+  animation: rotate 10s -0.78571s infinite ease-in-out;
+}
+.Ring:nth-child(22):before {
+  height: 242.02381px;
+  width: 242.02381px;
+}
+
+.Ring:nth-child(23) {
+  width: 495.89286px;
+  height: 495.89286px;
+  margin: -247.94643px;
+  animation: rotate 10s -0.82143s infinite ease-in-out;
+}
+.Ring:nth-child(23):before {
+  height: 230.29762px;
+  width: 230.29762px;
+}
+
+.Ring:nth-child(24) {
+  width: 495.71429px;
+  height: 495.71429px;
+  margin: -247.85714px;
+  animation: rotate 10s -0.85714s infinite ease-in-out;
+}
+.Ring:nth-child(24):before {
+  height: 218.57143px;
+  width: 218.57143px;
+}
+
+.Ring:nth-child(25) {
+  width: 495.53571px;
+  height: 495.53571px;
+  margin: -247.76786px;
+  animation: rotate 10s -0.89286s infinite ease-in-out;
+}
+.Ring:nth-child(25):before {
+  height: 206.84524px;
+  width: 206.84524px;
+}
+
+.Ring:nth-child(26) {
+  width: 495.35714px;
+  height: 495.35714px;
+  margin: -247.67857px;
+  animation: rotate 10s -0.92857s infinite ease-in-out;
+}
+.Ring:nth-child(26):before {
+  height: 195.11905px;
+  width: 195.11905px;
+}
+
+.Ring:nth-child(27) {
+  width: 495.17857px;
+  height: 495.17857px;
+  margin: -247.58929px;
+  animation: rotate 10s -0.96429s infinite ease-in-out;
+}
+.Ring:nth-child(27):before {
+  height: 183.39286px;
+  width: 183.39286px;
+}
+
+.Ring:nth-child(28) {
+  width: 495px;
+  height: 495px;
+  margin: -247.5px;
+  animation: rotate 10s -1s infinite ease-in-out;
+}
+.Ring:nth-child(28):before {
+  height: 171.66667px;
+  width: 171.66667px;
+}
+
+.Ring:nth-child(29) {
+  width: 494.82143px;
+  height: 494.82143px;
+  margin: -247.41071px;
+  animation: rotate 10s -1.03571s infinite ease-in-out;
+}
+.Ring:nth-child(29):before {
+  height: 159.94048px;
+  width: 159.94048px;
+}
+
+.Ring:nth-child(30) {
+  width: 494.64286px;
+  height: 494.64286px;
+  margin: -247.32143px;
+  animation: rotate 10s -1.07143s infinite ease-in-out;
+}
+.Ring:nth-child(30):before {
+  height: 148.21429px;
+  width: 148.21429px;
+}
+
+.Ring:nth-child(31) {
+  width: 494.46429px;
+  height: 494.46429px;
+  margin: -247.23214px;
+  animation: rotate 10s -1.10714s infinite ease-in-out;
+}
+.Ring:nth-child(31):before {
+  height: 136.4881px;
+  width: 136.4881px;
+}
+
+.Ring:nth-child(32) {
+  width: 494.28571px;
+  height: 494.28571px;
+  margin: -247.14286px;
+  animation: rotate 10s -1.14286s infinite ease-in-out;
+}
+.Ring:nth-child(32):before {
+  height: 124.7619px;
+  width: 124.7619px;
+}
+
+.Ring:nth-child(33) {
+  width: 494.10714px;
+  height: 494.10714px;
+  margin: -247.05357px;
+  animation: rotate 10s -1.17857s infinite ease-in-out;
+}
+.Ring:nth-child(33):before {
+  height: 113.03571px;
+  width: 113.03571px;
+}
+
+.Ring:nth-child(34) {
+  width: 493.92857px;
+  height: 493.92857px;
+  margin: -246.96429px;
+  animation: rotate 10s -1.21429s infinite ease-in-out;
+}
+.Ring:nth-child(34):before {
+  height: 101.30952px;
+  width: 101.30952px;
+}
+
+.Ring:nth-child(35) {
+  width: 493.75px;
+  height: 493.75px;
+  margin: -246.875px;
+  animation: rotate 10s -1.25s infinite ease-in-out;
+}
+.Ring:nth-child(35):before {
+  height: 89.58333px;
+  width: 89.58333px;
+}
+
+.Ring:nth-child(36) {
+  width: 493.57143px;
+  height: 493.57143px;
+  margin: -246.78571px;
+  animation: rotate 10s -1.28571s infinite ease-in-out;
+}
+.Ring:nth-child(36):before {
+  height: 77.85714px;
+  width: 77.85714px;
+}
+
+.Ring:nth-child(37) {
+  width: 493.39286px;
+  height: 493.39286px;
+  margin: -246.69643px;
+  animation: rotate 10s -1.32143s infinite ease-in-out;
+}
+.Ring:nth-child(37):before {
+  height: 66.13095px;
+  width: 66.13095px;
+}
+
+.Ring:nth-child(38) {
+  width: 493.21429px;
+  height: 493.21429px;
+  margin: -246.60714px;
+  animation: rotate 10s -1.35714s infinite ease-in-out;
+}
+.Ring:nth-child(38):before {
+  height: 54.40476px;
+  width: 54.40476px;
+}
+
+.Ring:nth-child(39) {
+  width: 493.03571px;
+  height: 493.03571px;
+  margin: -246.51786px;
+  animation: rotate 10s -1.39286s infinite ease-in-out;
+}
+.Ring:nth-child(39):before {
+  height: 42.67857px;
+  width: 42.67857px;
+}
+
+.Ring:nth-child(40) {
+  width: 492.85714px;
+  height: 492.85714px;
+  margin: -246.42857px;
+  animation: rotate 10s -1.42857s infinite ease-in-out;
+}
+.Ring:nth-child(40):before {
+  height: 30.95238px;
+  width: 30.95238px;
+}
+
+.Ring:nth-child(41) {
+  width: 492.67857px;
+  height: 492.67857px;
+  margin: -246.33929px;
+  animation: rotate 10s -1.46429s infinite ease-in-out;
+}
+.Ring:nth-child(41):before {
+  height: 19.22619px;
+  width: 19.22619px;
+}
+
+.Ring:nth-child(42) {
+  width: 492.5px;
+  height: 492.5px;
+  margin: -246.25px;
+  animation: rotate 10s -1.5s infinite ease-in-out;
+}
+.Ring:nth-child(42):before {
+  height: 7.5px;
+  width: 7.5px;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(120deg);
+  }
+  20% {
+    transform: rotate(600deg);
+  }
+  60% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(480deg);
+  }
+}
