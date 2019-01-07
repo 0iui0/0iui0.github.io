@@ -11,9 +11,9 @@
   xhr.onreadystatechange = function () {
     if (xhr.readyState === 4) {
       var data = JSON.parse(xhr.responseText);
-      var hitokoto = document.getElementById('hitokoto');
+      var hitokoto_text = document.getElementById('hitokoto_text');
       var hitokoto_author = document.getElementById('hitokoto_author');
-      hitokoto.innerText = data.hitokoto;    
+      hitokoto_text.innerText = data.hitokoto;    
       hitokoto_author.innerText = data.from;
     }
   }
